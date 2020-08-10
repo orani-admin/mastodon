@@ -27,4 +27,4 @@ ubuntu-light: styles/ubuntu-light.scss
 ubuntu-terminal: styles/ubuntu-terminal.scss
 neoncity: styles/neon-city.scss 
 cybre-light: styles/cybre-light.scss
-win95: styles/win95.scss
+#win95: styles/win95.scss
