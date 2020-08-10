@@ -1258,6 +1258,31 @@ en:
     contrast: Mastodon (High contrast)
     default: Mastodon (Dark)
     mastodon-light: Mastodon (Light)
+    strawberry: strawberry
+    dark-purple: Mastodon (Dark-Purple)
+    light-purple: Mastodon (Light-Purple)
+    dark-red: Mastodon (Dark-Red)
+    light-red: Mastodon (Light-Red)
+    dark-green: Mastodon (Dark-Green)
+    light-green: Mastodon (Light-Green)
+    dark-cyan: Mastodon (Dark-Cyan)
+    light-cyan: Mastodon (Light-Cyan)
+    dark-yellow: Mastodon (Dark-Yellow)
+    light-yellow: Mastodon (Light-Yellow)
+    dark-orange: Mastodon (Dark-Orange)
+    light-orange: Mastodon (Light-Orange)
+    dark-pink: Mastodon (Dark-Pink)
+    light-pink: Mastodon (Light-Pink)
+    ubuntu-light: Ubuntu Orange
+    ubuntu-terminal: Ubuntu Terminal
+    forest: Forest
+    witches-town: Witches Town
+    sleeping-town: Sleeping Town
+    nga: NGA Style
+    new-year: New Year
+    sakura: Sakura
+    luxury: Luxury
+
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
