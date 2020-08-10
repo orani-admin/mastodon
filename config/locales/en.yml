@@ -1282,7 +1282,9 @@ en:
     new-year: New Year
     sakura: Sakura
     luxury: Luxury
-
+    neoncity: neoncity
+    cybre-light: cybre-light
+    win95: win95
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
