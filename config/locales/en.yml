@@ -1285,6 +1285,11 @@ en:
     neoncity: neoncity
     cybre-light: cybre-light
     win95: win95
+    cybrespace: cybrespace
+    geodude: geodude
+    meemu-org: meemu
+    royal-tenenbaums: royal-tenenbaums
+
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
