@@ -16,8 +16,8 @@ dark-orange: styles/dark-orange.scss
 light-orange: styles/light-orange.scss
 dark-pink: styles/dark-pink.scss
 light-pink: styles/light-pink.scss
-witches-town: styles/witches-town.scss
-sleeping-town: styles/sleeping-town.scss
+#witches-town: styles/witches-town.scss
+#sleeping-town: styles/sleeping-town.scss
 forest: styles/forest.scss
 new-year: styles/new-year.scss
 nga: styles/nga.scss
@@ -28,7 +28,7 @@ ubuntu-terminal: styles/ubuntu-terminal.scss
 neoncity: styles/neon-city.scss 
 cybre-light: styles/cybre-light.scss
 cybrespace: styles/cybre.scss
-win95: styles/win95.scss
+#win95: styles/win95.scss
 geodude: styles/geodude.scss
 meemu-org: styles/meemu.scss
 royal-tenenbaums: styles/royal-tenenbaums.scss
