@@ -149,7 +149,7 @@ class AccountsController < ApplicationController
 		params_slice(:max_id, :min_id, :since_id)
 		)
 	else
-		cached_filtered_status_page.first(5)
+	  filtered_statuses.first(5)
 	end
   end
   def params_slice(*keys)
