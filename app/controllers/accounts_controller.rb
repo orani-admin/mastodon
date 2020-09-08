@@ -28,8 +28,7 @@ class AccountsController < ApplicationController
         end
 
         @pinned_statuses = cache_collection(@account.pinned_statuses, Status) if show_pinned_statuses?
-        @statuses        = filtered_status_page
-        @statuses        = cache_collection(@statuses, Status)
+        @statuses        = cached_filtered_status_page
         @rss_url         = rss_url
 
         unless @statuses.empty?
@@ -141,15 +140,18 @@ class AccountsController < ApplicationController
   def tag_requested?
     request.path.split('.').first.ends_with?(Addressable::URI.parse("/tagged/#{params[:tag]}").normalize)
   end
-
-  def filtered_status_page
-     if user_signed_in?
-        filtered_statuses.paginate_by_id(PAGE_SIZE, params_slice(:max_id, :min_id, :since_id))
-     else
-	filtered_statuses.first(5)
-     end
+  def cached_filtered_status_page
+	if user_signed_in?
+		cache_collection_paginated_by_id(
+		filtered_statuses,
+		Status,
+		PAGE_SIZE,
+		params_slice(:max_id, :min_id, :since_id)
+		)
+	else
+		cached_filtered_status_page.first(5)
+	end
   end
-
   def params_slice(*keys)
     params.slice(*keys).permit(*keys)
   end
