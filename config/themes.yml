@@ -22,7 +22,7 @@ forest: styles/forest.scss
 new-year: styles/new-year.scss
 nga: styles/nga.scss
 # sakura: styles/sakura.scss
-# # luxury: styles/luxury.scss
+# luxury: styles/luxury.scss
 ubuntu-light: styles/ubuntu-light.scss
 ubuntu-terminal: styles/ubuntu-terminal.scss
 neoncity: styles/neon-city.scss 
