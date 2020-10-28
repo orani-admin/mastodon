@@ -70,10 +70,10 @@
 
             .hero-widget__counters__wrapper
               .hero-widget__counter
-                %strong= number_to_human @instance_presenter.user_count, strip_insignificant_zeros: true
-                %span= t 'about.user_count_after', count: @instance_presenter.user_count
+                %strong= '1' 
+                %span= t 'about.user_count_after', count: '1'
               .hero-widget__counter
-                %strong= number_to_human @instance_presenter.active_user_count, strip_insignificant_zeros: true
+                %strong= '1'
                 %span
                   = t 'about.active_count_after'
                   %abbr{ title: t('about.active_footnote') } *

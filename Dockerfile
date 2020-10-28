@@ -92,7 +92,7 @@ ARG GID=991
 RUN apt update && \
 	echo "Etc/UTC" > /etc/localtime && \
 	ln -s /opt/jemalloc/lib/* /usr/lib/ && \
-	apt install -y whois wget && \
+	apt install -y whois wget curl vim git && \
 	addgroup --gid $GID mastodon && \
 	useradd -m -u $UID -g $GID -d /opt/mastodon mastodon && \
 	echo "mastodon:`head /dev/urandom | tr -dc A-Za-z0-9 | head -c 24 | mkpasswd -s -m sha-256`" | chpasswd
